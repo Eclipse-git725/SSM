@@ -1,10 +1,10 @@
 package com.gxy.factory;
 
-import com.gxy.dao.OrderDao;
-import com.gxy.dao.impl.OrderDaoImpl;
+import com.gxy.dao.UserDao;
+import com.gxy.dao.impl.UserDaoImpl;
 
-public class OrderDaoFactory {
-    public static OrderDao getOrderDao(){
-        return new OrderDaoImpl();
+public class UserDaoFactory {
+    public UserDao getUserDao(){
+        return new UserDaoImpl();
     }
 }

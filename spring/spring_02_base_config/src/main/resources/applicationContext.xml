@@ -7,12 +7,13 @@
     id属性标示给bean起名字
     class属性表示给bean定义类型
     -->
-    <bean id="bookDao" class="com.gxy.dao.impl.BookDaoImpl"/>
-    <bean id="bookService" class="com.gxy.service.impl.BookServiceImpl">
+    <bean id="bookDao" name="dao" class="com.gxy.dao.impl.BookDaoImpl" scope="prototype"/>
+    <!-- bean的name属性起别名 -->
+    <bean id="bookService" name="service" class="com.gxy.service.impl.BookServiceImpl">
          <!-- 配置service和dao关系 -->
         <!-- property标签配置当前bean属性
         name表示配置哪个属性
         ref表示参照哪个配置 -->
-        <property name="bookDao" ref="bookDao"/>
+        <property name="bookDao" ref="dao"/>
     </bean>
 </beans>

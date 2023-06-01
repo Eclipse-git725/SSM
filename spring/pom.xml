@@ -10,6 +10,21 @@
     </parent>
 
     <artifactId>spring</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>spring_01_quickstart</module>
+        <module>spring_02_base_config</module>
+        <module>spring_03_bean_instance</module>
+        <module>spring_04_bean_lifecycle</module>
+        <module>spring_05_dl_set</module>
+        <module>spring_06_dl_constructor</module>
+        <module>spring_07_dl_autowire</module>
+        <module>spring_08_dl_collection</module>
+        <module>spring_09_datasource</module>
+        <module>spring_10_container</module>
+        <module>spring_11_annotation_bean</module>
+        <module>spring_12_annotation_bean_manager</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

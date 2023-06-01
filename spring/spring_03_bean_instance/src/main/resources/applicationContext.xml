@@ -3,17 +3,16 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <!--bean标签标示配置bean
-    id属性标示给bean起名字
-    class属性表示给bean定义类型
-    -->
+    <!-- 方式一：构造方法实例化 -->
     <bean id="bookDao" name="dao" class="com.gxy.dao.impl.BookDaoImpl" scope="prototype"/>
-    <!-- bean的name属性起别名 -->
-    <bean id="bookService" name="service" class="com.gxy.service.impl.BookServiceImpl">
-         <!-- 配置service和dao关系 -->
-        <!-- property标签配置当前bean属性
-        name表示配置哪个属性
-        ref表示参照哪个配置 -->
-        <property name="bookDao" ref="dao"/>
-    </bean>
+
+    <!-- 方式二：静态工厂实例化 -->
+    <bean id="orderDao" class="com.gxy.factory.OrderDaoFactory" factory-method="getOrderDao"/>
+
+    <!-- 方式三：使用实例化工厂实例化 -->
+    <!-- <bean id="userDaoFactory" class="com.gxy.factory.UserDaoFactory"/>
+    <bean id="userDao" factory-method="getUserDao" factory-bean="userDaoFactory"/> -->
+
+    <!-- 方式四：使用factorybean实例化 重要！！！-->
+    <bean id="userDao" class="com.gxy.factory.UserDaoFactoryBean"/>
 </beans>

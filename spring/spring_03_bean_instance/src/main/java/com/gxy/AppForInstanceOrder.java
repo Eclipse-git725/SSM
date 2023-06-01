@@ -1,16 +1,19 @@
 package com.gxy;
 
 import com.gxy.dao.BookDao;
+import com.gxy.dao.OrderDao;
+import com.gxy.factory.OrderDaoFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class AppForScope {
+public class AppForInstanceOrder {
     public static void main(String[] args) {
+        // 通过静态工厂创建dao
+        /*OrderDao orderDao = OrderDaoFactory.getOrderDao();
+        orderDao.save();*/
+
         ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
-        // 若配置为多例则是两个不同的地址，默认为单例地址相同
-        BookDao bookDao1 = (BookDao) ctx.getBean("bookDao");
-        System.out.println(bookDao1);
-        BookDao bookDao2 = (BookDao) ctx.getBean("bookDao");
-        System.out.println(bookDao2);
+        OrderDao orderDao = (OrderDao) ctx.getBean("orderDao");
+        orderDao.save();
     }
 }

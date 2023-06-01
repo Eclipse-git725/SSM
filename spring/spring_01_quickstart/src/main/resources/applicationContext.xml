@@ -3,4 +3,16 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <!--bean标签标示配置bean
+    id属性标示给bean起名字
+    class属性表示给bean定义类型
+    -->
+    <bean id="bookDao" class="com.gxy.dao.impl.BookDaoImpl"/>
+    <bean id="bookService" class="com.gxy.service.impl.BookServiceImpl">
+         <!-- 配置service和dao关系 -->
+        <!-- property标签配置当前bean属性
+        name表示配置哪个属性
+        ref表示参照哪个配置 -->
+        <property name="bookDao" ref="bookDao"/>
+    </bean>
 </beans>
