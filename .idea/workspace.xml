@@ -5,116 +5,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d51e00d-0179-4b39-a03e-d559dd816cd5" name="Changes" comment="6/1 Ioc &amp; Bean">
-      <change afterPath="$PROJECT_DIR$/spring/spring_04_bean_lifecycle/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_04_bean_lifecycle/src/main/java/com/gxy/AppForLifeCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_04_bean_lifecycle/src/main/java/com/gxy/dao/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_04_bean_lifecycle/src/main/java/com/gxy/dao/impl/BookDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_04_bean_lifecycle/src/main/java/com/gxy/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_04_bean_lifecycle/src/main/java/com/gxy/service/impl/BookServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_04_bean_lifecycle/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_04_bean_lifecycle/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_05_dl_set/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_05_dl_set/src/main/java/com/gxy/AppForDISet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_05_dl_set/src/main/java/com/gxy/dao/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_05_dl_set/src/main/java/com/gxy/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_05_dl_set/src/main/java/com/gxy/dao/impl/BookDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_05_dl_set/src/main/java/com/gxy/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_05_dl_set/src/main/java/com/gxy/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_05_dl_set/src/main/java/com/gxy/service/impl/BookServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_05_dl_set/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_05_dl_set/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_06_dl_constructor/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_06_dl_constructor/src/main/java/com/gxy/AppForDIConstructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_06_dl_constructor/src/main/java/com/gxy/dao/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_06_dl_constructor/src/main/java/com/gxy/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_06_dl_constructor/src/main/java/com/gxy/dao/impl/BookDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_06_dl_constructor/src/main/java/com/gxy/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_06_dl_constructor/src/main/java/com/gxy/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_06_dl_constructor/src/main/java/com/gxy/service/impl/BookServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_06_dl_constructor/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_06_dl_constructor/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_07_dl_autowire/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_07_dl_autowire/src/main/java/com/gxy/AppForAutoWire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_07_dl_autowire/src/main/java/com/gxy/dao/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_07_dl_autowire/src/main/java/com/gxy/dao/impl/BookDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_07_dl_autowire/src/main/java/com/gxy/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_07_dl_autowire/src/main/java/com/gxy/service/impl/BookServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_07_dl_autowire/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_07_dl_autowire/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_08_dl_collection/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_08_dl_collection/src/main/java/com/gxy/AppForDICollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_08_dl_collection/src/main/java/com/gxy/dao/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_08_dl_collection/src/main/java/com/gxy/dao/impl/BookDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_08_dl_collection/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_08_dl_collection/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_09_datasource/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_09_datasource/src/main/java/com/gxy/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_09_datasource/src/main/java/com/gxy/dao/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_09_datasource/src/main/java/com/gxy/dao/impl/BookDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_09_datasource/src/main/java/com/gxy/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_09_datasource/src/main/java/com/gxy/service/impl/BookServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_09_datasource/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_09_datasource/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_09_datasource/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_09_datasource/src/main/resources/jdbc2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_10_container/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_10_container/src/main/java/com/gxy/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_10_container/src/main/java/com/gxy/AppForBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_10_container/src/main/java/com/gxy/dao/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_10_container/src/main/java/com/gxy/dao/impl/BookDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_10_container/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_10_container/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_11_annotation_bean/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_11_annotation_bean/src/main/java/com/gxy/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_11_annotation_bean/src/main/java/com/gxy/AppForAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_11_annotation_bean/src/main/java/com/gxy/config/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_11_annotation_bean/src/main/java/com/gxy/dao/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_11_annotation_bean/src/main/java/com/gxy/dao/impl/BookDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_11_annotation_bean/src/main/java/com/gxy/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_11_annotation_bean/src/main/java/com/gxy/service/impl/BookServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_11_annotation_bean/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_11_annotation_bean/src/main/resources/applicationContext.xml.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_12_annotation_bean_manager/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_12_annotation_bean_manager/src/main/java/com/gxy/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_12_annotation_bean_manager/src/main/java/com/gxy/config/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_12_annotation_bean_manager/src/main/java/com/gxy/dao/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_12_annotation_bean_manager/src/main/java/com/gxy/dao/impl/BookDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_12_annotation_bean_manager/src/main/java/com/gxy/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_12_annotation_bean_manager/src/main/java/com/gxy/service/impl/BookServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_12_annotation_bean_manager/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_12_annotation_bean_manager/src/main/resources/applicationContext.xml.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_13_annotation_dl/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_13_annotation_dl/src/main/java/com/gxy/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_13_annotation_dl/src/main/java/com/gxy/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_13_annotation_dl/src/main/java/com/gxy/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_13_annotation_dl/src/main/java/com/gxy/dao/impl/BookDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_13_annotation_dl/src/main/java/com/gxy/dao/impl/BookDaoImpl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_13_annotation_dl/src/main/java/com/gxy/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_13_annotation_dl/src/main/java/com/gxy/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_13_annotation_dl/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_13_annotation_dl/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_14_annotation_third_bean_manager/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_14_annotation_third_bean_manager/src/main/java/com/gxy/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_14_annotation_third_bean_manager/src/main/java/com/gxy/config/JdbcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_14_annotation_third_bean_manager/src/main/java/com/gxy/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_14_annotation_third_bean_manager/src/main/java/com/gxy/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_14_annotation_third_bean_manager/src/main/java/com/gxy/dao/impl/BookDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_14_annotation_third_bean_manager/src/main/java/com/gxy/dao/impl/BookDaoImpl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_14_annotation_third_bean_manager/src/main/java/com/gxy/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_14_annotation_third_bean_manager/src/main/java/com/gxy/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_14_annotation_third_bean_manager/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_14_annotation_third_bean_manager/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_15_spring_mybatis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_15_spring_mybatis/src/main/java/com/gxy/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_15_spring_mybatis/src/main/java/com/gxy/App2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_15_spring_mybatis/src/main/java/com/gxy/config/JdbcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_15_spring_mybatis/src/main/java/com/gxy/config/MybatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_15_spring_mybatis/src/main/java/com/gxy/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_15_spring_mybatis/src/main/java/com/gxy/dao/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_15_spring_mybatis/src/main/java/com/gxy/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_15_spring_mybatis/src/main/java/com/gxy/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_15_spring_mybatis/src/main/java/com/gxy/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_15_spring_mybatis/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_15_spring_mybatis/src/main/resources/SqlMapConfig.xml.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_15_spring_mybatis/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_15_spring_mybatis/src/main/resources/spring_db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_16_spring_junit/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_16_spring_junit/src/main/java/com/gxy/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_16_spring_junit/src/main/java/com/gxy/App2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_16_spring_junit/src/main/java/com/gxy/config/JdbcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_16_spring_junit/src/main/java/com/gxy/config/MybatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_16_spring_junit/src/main/java/com/gxy/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_16_spring_junit/src/main/java/com/gxy/dao/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_16_spring_junit/src/main/java/com/gxy/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_16_spring_junit/src/main/java/com/gxy/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_16_spring_junit/src/main/java/com/gxy/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_16_spring_junit/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_16_spring_junit/src/main/resources/SqlMapConfig.xml.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_16_spring_junit/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_16_spring_junit/src/main/resources/spring_db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_16_spring_junit/src/test/java/com/gxy/Service/AccountServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_01_quickstart/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_01_quickstart/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_01_quickstart/src/main/java/com/gxy/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_01_quickstart/src/main/java/com/gxy/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_01_quickstart/src/main/java/com/gxy/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_01_quickstart/src/main/java/com/gxy/dao/BookDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_01_quickstart/src/main/java/com/gxy/dao/impl/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_01_quickstart/src/main/java/com/gxy/dao/impl/BookDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_01_quickstart/src/main/java/com/gxy/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_01_quickstart/src/main/java/com/gxy/service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_01_quickstart/src/main/java/com/gxy/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_01_quickstart/src/main/java/com/gxy/service/impl/BookServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_01_quickstart/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_01_quickstart/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_01_quickstart/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_01_quickstart/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_02_base_config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_02_base_config/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_02_base_config/src/main/java/com/gxy/AppForName.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_02_base_config/src/main/java/com/gxy/AppForName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_02_base_config/src/main/java/com/gxy/AppForScope.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_02_base_config/src/main/java/com/gxy/AppForScope.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_02_base_config/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_02_base_config/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_03_bean_instance/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_03_bean_instance/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_03_bean_instance/src/main/java/com/gxy/AppForInstanceBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_03_bean_instance/src/main/java/com/gxy/AppForInstanceBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_03_bean_instance/src/main/java/com/gxy/AppForInstanceOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_03_bean_instance/src/main/java/com/gxy/AppForInstanceOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_03_bean_instance/src/main/java/com/gxy/AppForInstanceUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_03_bean_instance/src/main/java/com/gxy/AppForInstanceUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_03_bean_instance/src/main/java/com/gxy/dao/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_03_bean_instance/src/main/java/com/gxy/dao/OrderDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_03_bean_instance/src/main/java/com/gxy/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_03_bean_instance/src/main/java/com/gxy/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_03_bean_instance/src/main/java/com/gxy/dao/impl/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_03_bean_instance/src/main/java/com/gxy/dao/impl/BookDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_03_bean_instance/src/main/java/com/gxy/dao/impl/OrderDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_03_bean_instance/src/main/java/com/gxy/dao/impl/OrderDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_03_bean_instance/src/main/java/com/gxy/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_03_bean_instance/src/main/java/com/gxy/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_03_bean_instance/src/main/java/com/gxy/factory/OrderDaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_03_bean_instance/src/main/java/com/gxy/factory/OrderDaoFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_03_bean_instance/src/main/java/com/gxy/factory/UserDaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_03_bean_instance/src/main/java/com/gxy/factory/UserDaoFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_03_bean_instance/src/main/java/com/gxy/factory/UserDaoFactoryBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_03_bean_instance/src/main/java/com/gxy/factory/UserDaoFactoryBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_03_bean_instance/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_03_bean_instance/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,11 +126,17 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.ignored.files",
     "spring.configuration.checksum": "c5e3d899136ed8c98886f26c26434f85",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\learning\SSM\spring" />
+      <recent name="D:\learning\SSM\spring\spring_13_annotation_dl\src\main\resources" />
       <recent name="D:\learning\SSM\spring\spring_09_datasource\src\main\resources" />
       <recent name="D:\learning\SSM\spring\spring_08_dl_collection\src\main\java\com\gxy\dao\impl" />
       <recent name="D:\learning\SSM\spring\spring_08_dl_collection\src\main\java\com\gxy\dao" />
@@ -195,16 +145,17 @@
       <recent name="D:\learning\SSM\spring" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gxy.config" />
       <recent name="com.gxy.dao.impl" />
       <recent name="com.gxy.dao" />
       <recent name="com.gxy" />
       <recent name="com.gxy.factory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App (2)">
-    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AccountServiceTest.testFindAll">
+    <configuration name="App (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gxy.App" />
-      <module name="spring_11_annotation_bean" />
+      <module name="spring_15_spring_mybatis" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gxy.*" />
@@ -215,9 +166,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gxy.App" />
-      <module name="spring_12_annotation_bean_manager" />
+    <configuration name="App2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gxy.App2" />
+      <module name="spring_16_spring_junit" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gxy.*" />
@@ -228,9 +179,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gxy.App" />
-      <module name="spring_09_datasource" />
+    <configuration name="App2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gxy.App2" />
+      <module name="spring_15_spring_mybatis" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gxy.*" />
@@ -241,52 +192,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gxy.App" />
-      <module name="spring_10_container" />
+    <configuration name="AccountServiceTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_16_spring_junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gxy.*" />
+          <option name="PATTERN" value="com.gxy.Service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.gxy.Service" />
+      <option name="MAIN_CLASS_NAME" value="com.gxy.Service.AccountServiceTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppForAnnotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gxy.AppForAnnotation" />
-      <module name="spring_11_annotation_bean" />
+    <configuration name="AccountServiceTest.testFindById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_16_spring_junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gxy.*" />
+          <option name="PATTERN" value="com.gxy.Service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppForDIConstructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gxy.AppForDIConstructor" />
-      <module name="spring_06_dl_constructor" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="com.gxy.Service" />
+      <option name="MAIN_CLASS_NAME" value="com.gxy.Service.AccountServiceTest" />
+      <option name="METHOD_NAME" value="testFindById" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App (2)" />
-        <item itemvalue="Application.AppForAnnotation" />
-        <item itemvalue="Application.App (1)" />
-        <item itemvalue="Application.App (1)" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.AccountServiceTest.testFindAll" />
+        <item itemvalue="JUnit.AccountServiceTest.testFindById" />
+        <item itemvalue="Application.App2 (1)" />
+        <item itemvalue="Application.App2" />
+        <item itemvalue="Application.App (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -305,8 +249,16 @@
       <workItem from="1685528022212" duration="715000" />
       <workItem from="1685528747783" duration="304000" />
       <workItem from="1685529060709" duration="975000" />
-      <workItem from="1685530045067" duration="22450000" />
+      <workItem from="1685530045067" duration="33479000" />
     </task>
+    <task id="LOCAL-00001" summary="6/1 Ioc &amp; Bean">
+      <created>1685616721459</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685616721459</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

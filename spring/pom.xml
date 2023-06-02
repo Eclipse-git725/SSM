@@ -24,6 +24,10 @@
         <module>spring_10_container</module>
         <module>spring_11_annotation_bean</module>
         <module>spring_12_annotation_bean_manager</module>
+        <module>spring_13_annotation_dl</module>
+        <module>spring_14_annotation_third_bean_manager</module>
+        <module>spring_15_spring_mybatis</module>
+        <module>spring_16_spring_junit</module>
     </modules>
 
     <properties>
