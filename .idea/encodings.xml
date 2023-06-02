@@ -33,6 +33,20 @@
     <file url="file://$PROJECT_DIR$/spring/spring_15_spring_mybatis/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/spring_16_spring_junit/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/spring_16_spring_junit/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring_17_aop_demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring_17_aop_demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring_18_aop_quickstart/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring_18_aop_quickstart/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring_19_aop_pointcut/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring_19_aop_pointcut/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring_20_aop_advice_type/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring_20_aop_advice_type/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring_21_case_interface_run_speed/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring_21_case_interface_run_speed/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring_22_aop_advice_data/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring_22_aop_advice_data/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring_22_apo_advice_data/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring_22_apo_advice_data/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />

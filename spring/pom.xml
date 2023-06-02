@@ -28,6 +28,12 @@
         <module>spring_14_annotation_third_bean_manager</module>
         <module>spring_15_spring_mybatis</module>
         <module>spring_16_spring_junit</module>
+        <module>spring_17_aop_demo</module>
+        <module>spring_18_aop_quickstart</module>
+        <module>spring_19_aop_pointcut</module>
+        <module>spring_20_aop_advice_type</module>
+        <module>spring_21_case_interface_run_speed</module>
+        <module>spring_22_aop_advice_data</module>
     </modules>
 
     <properties>
