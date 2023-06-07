@@ -1,15 +1,17 @@
 package com.gxy;
 
 import com.gxy.config.SpringConfig;
-import com.gxy.dao.BookDao;
+import com.gxy.dao.ResourceDao;
+import com.gxy.service.ResourceService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class App22 {
+public class App {
     public static void main(String[] args) {
         ApplicationContext ctx = new AnnotationConfigApplicationContext(SpringConfig.class);
-        BookDao bookDao = ctx.getBean(BookDao.class);
-        String name = bookDao.findName(100, "gxy");
-        System.out.println(name);
+        ResourceService resourceService = ctx.getBean(ResourceService.class);
+        boolean flag = resourceService.openURL("http://pan.baidu.com/haha", "root  ");
+        System.out.println(flag);
+
     }
 }

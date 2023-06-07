@@ -34,6 +34,9 @@
         <module>spring_20_aop_advice_type</module>
         <module>spring_21_case_interface_run_speed</module>
         <module>spring_22_aop_advice_data</module>
+        <module>spring_23_case_handle_password</module>
+        <module>spring_24_case_transfer</module>
+        <module>spring_25_case_transfer_log</module>
     </modules>
 
     <properties>
