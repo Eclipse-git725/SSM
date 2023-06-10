@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/springmvc/springmvc_01_quickstart" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc/springmvc_02_bean_load" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc/springmvc_03_request_mapping" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc/springmvc_04_request_param" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc/springmvc_05_response" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc/springmvc_06_rest" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc/springmvc_07_rest_case" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc/springmvc_08_ssm" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc/springmvc_09_result" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>

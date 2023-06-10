@@ -4,48 +4,112 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d51e00d-0179-4b39-a03e-d559dd816cd5" name="Changes" comment="6/2 AOP">
-      <change afterPath="$PROJECT_DIR$/spring/spring_23_case_handle_password/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_23_case_handle_password/src/main/java/com/gxy/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_23_case_handle_password/src/main/java/com/gxy/aop/DataAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_23_case_handle_password/src/main/java/com/gxy/config/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_23_case_handle_password/src/main/java/com/gxy/dao/ResourceDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_23_case_handle_password/src/main/java/com/gxy/dao/impl/ResourceDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_23_case_handle_password/src/main/java/com/gxy/service/ResourceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_23_case_handle_password/src/main/java/com/gxy/service/impl/ResourceServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_24_case_transfer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_24_case_transfer/src/main/java/com/gxy/config/JdbcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_24_case_transfer/src/main/java/com/gxy/config/MybatisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_24_case_transfer/src/main/java/com/gxy/config/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_24_case_transfer/src/main/java/com/gxy/dao/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_24_case_transfer/src/main/java/com/gxy/domain/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_24_case_transfer/src/main/java/com/gxy/service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_24_case_transfer/src/main/java/com/gxy/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_24_case_transfer/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_24_case_transfer/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_24_case_transfer/src/test/java/com/gxy/service/AccountServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_25_case_transfer_log/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_25_case_transfer_log/src/main/java/com/gxy/config/JdbcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_25_case_transfer_log/src/main/java/com/gxy/config/MybatisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_25_case_transfer_log/src/main/java/com/gxy/config/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_25_case_transfer_log/src/main/java/com/gxy/dao/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_25_case_transfer_log/src/main/java/com/gxy/dao/LogDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_25_case_transfer_log/src/main/java/com/gxy/domain/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_25_case_transfer_log/src/main/java/com/gxy/service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_25_case_transfer_log/src/main/java/com/gxy/service/LogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_25_case_transfer_log/src/main/java/com/gxy/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_25_case_transfer_log/src/main/java/com/gxy/service/impl/LogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_25_case_transfer_log/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_25_case_transfer_log/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_25_case_transfer_log/src/main/resources/tb_log.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_25_case_transfer_log/src/test/java/com/gxy/service/AccountServiceTest.java" afterDir="false" />
+    <list default="true" id="4d51e00d-0179-4b39-a03e-d559dd816cd5" name="Changes" comment="6/9 springmvc">
+      <change afterPath="$PROJECT_DIR$/springmvc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_01_quickstart/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_01_quickstart/src/main/java/com/gxy/config/ServletContainersInitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_01_quickstart/src/main/java/com/gxy/config/SpringMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_01_quickstart/src/main/java/com/gxy/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_01_quickstart/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_02_bean_load/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_02_bean_load/src/main/java/com/gxy/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_02_bean_load/src/main/java/com/gxy/config/ServletContainersInitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_02_bean_load/src/main/java/com/gxy/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_02_bean_load/src/main/java/com/gxy/config/SpringMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_02_bean_load/src/main/java/com/gxy/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_02_bean_load/src/main/java/com/gxy/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_02_bean_load/src/main/java/com/gxy/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_02_bean_load/src/main/java/com/gxy/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_02_bean_load/src/main/java/com/gxy/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_02_bean_load/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_03_request_mapping/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_03_request_mapping/src/main/java/com/gxy/config/ServletContainersInitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_03_request_mapping/src/main/java/com/gxy/config/SpringMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_03_request_mapping/src/main/java/com/gxy/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_03_request_mapping/src/main/java/com/gxy/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_03_request_mapping/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_04_request_param/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_04_request_param/src/main/java/com/gxy/config/ServletContainersInitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_04_request_param/src/main/java/com/gxy/config/SpringMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_04_request_param/src/main/java/com/gxy/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_04_request_param/src/main/java/com/gxy/domain/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_04_request_param/src/main/java/com/gxy/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_04_request_param/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_05_response/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_05_response/src/main/java/com/gxy/config/ServletContainersInitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_05_response/src/main/java/com/gxy/config/SpringMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_05_response/src/main/java/com/gxy/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_05_response/src/main/java/com/gxy/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_05_response/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_05_response/src/main/webapp/page.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_06_rest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_06_rest/src/main/java/com/gxy/config/ServletContainersInitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_06_rest/src/main/java/com/gxy/config/SpringMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_06_rest/src/main/java/com/gxy/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_06_rest/src/main/java/com/gxy/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_06_rest/src/main/java/com/gxy/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_06_rest/src/main/java/com/gxy/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_06_rest/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_06_rest/src/main/webapp/page.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_07_rest_case/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_07_rest_case/src/main/java/com/gxy/config/ServletContainersInitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_07_rest_case/src/main/java/com/gxy/config/SpringMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_07_rest_case/src/main/java/com/gxy/config/SpringMvcSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_07_rest_case/src/main/java/com/gxy/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_07_rest_case/src/main/java/com/gxy/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_07_rest_case/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_07_rest_case/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_07_rest_case/src/main/webapp/js/axios-0.18.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_07_rest_case/src/main/webapp/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_07_rest_case/src/main/webapp/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_07_rest_case/src/main/webapp/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_07_rest_case/src/main/webapp/pages/books.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_07_rest_case/src/main/webapp/plugins/elementui/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_07_rest_case/src/main/webapp/plugins/elementui/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_07_rest_case/src/main/webapp/plugins/elementui/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_07_rest_case/src/main/webapp/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_07_rest_case/src/main/webapp/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_07_rest_case/src/main/webapp/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_07_rest_case/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_07_rest_case/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_07_rest_case/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_07_rest_case/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_07_rest_case/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_08_ssm/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_08_ssm/src/main/java/com/gxy/config/JdbcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_08_ssm/src/main/java/com/gxy/config/MyBatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_08_ssm/src/main/java/com/gxy/config/ServletConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_08_ssm/src/main/java/com/gxy/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_08_ssm/src/main/java/com/gxy/config/SpringMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_08_ssm/src/main/java/com/gxy/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_08_ssm/src/main/java/com/gxy/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_08_ssm/src/main/java/com/gxy/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_08_ssm/src/main/java/com/gxy/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_08_ssm/src/main/java/com/gxy/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_08_ssm/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_08_ssm/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_08_ssm/src/main/resources/tbl_book.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_08_ssm/src/test/java/com/gxy/service/BookServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_09_result/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_09_result/src/main/java/com/gxy/config/JdbcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_09_result/src/main/java/com/gxy/config/MyBatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_09_result/src/main/java/com/gxy/config/ServletConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_09_result/src/main/java/com/gxy/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_09_result/src/main/java/com/gxy/config/SpringMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_09_result/src/main/java/com/gxy/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_09_result/src/main/java/com/gxy/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_09_result/src/main/java/com/gxy/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_09_result/src/main/java/com/gxy/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_09_result/src/main/java/com/gxy/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_09_result/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_09_result/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_09_result/src/main/resources/tbl_book.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/springmvc_09_result/src/test/java/com/gxy/service/BookServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_22_aop_advice_data/src/main/java/com/gxy/App22.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_22_aop_advice_data/src/main/java/com/gxy/App22.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_22_aop_advice_data/src/main/java/com/gxy/aop/MyAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_22_aop_advice_data/src/main/java/com/gxy/aop/MyAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_22_aop_advice_data/src/main/java/com/gxy/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_22_aop_advice_data/src/main/java/com/gxy/dao/BookDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_22_aop_advice_data/src/main/java/com/gxy/dao/impl/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_22_aop_advice_data/src/main/java/com/gxy/dao/impl/BookDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +120,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
+        <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -102,16 +167,16 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/learning/SSM/spring",
+    "last_opened_file_path": "D:/learning/SSM/springmvc",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Facets",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.build",
-    "spring.configuration.checksum": "c5e3d899136ed8c98886f26c26434f85",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.ignored.files",
+    "spring.configuration.checksum": "a3d344fb2e977eacace838ebe9f35553",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -122,69 +187,30 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\learning\SSM\springmvc" />
+      <recent name="D:\learning\SSM\springmvc\springmvc_08_ssm\src\main\resources" />
+      <recent name="D:\learning\SSM\springmvc\springmvc_08_ssm\src\main\java\com\gxy" />
+      <recent name="D:\learning\SSM\springmvc\springmvc_07_rest_case\src\main\webapp" />
       <recent name="D:\learning\SSM\spring" />
-      <recent name="D:\learning\SSM\spring\spring_22_apo_advice_data\src\main\java" />
-      <recent name="D:\learning\SSM\spring\spring_21_case_interface_run_speed\src\test\java" />
-      <recent name="D:\learning\SSM\spring\spring_13_annotation_dl\src\main\resources" />
-      <recent name="D:\learning\SSM\spring\spring_09_datasource\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\learning\SSM\spring" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gxy.controller" />
       <recent name="com.gxy.config" />
       <recent name="com.gxy.dao.impl" />
       <recent name="com.gxy.dao" />
       <recent name="com.gxy" />
-      <recent name="com.gxy.factory" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AccountServiceTest.testTransfer (1)">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BookServiceTest.testGetAll">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gxy.App" />
-      <module name="spring_23_case_handle_password" />
+      <module name="springmvc_02_bean_load" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="App22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gxy.App22" />
-      <module name="spring_22_aop_advice_data" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.gxy.App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gxy.App" />
-      <module name="spring_19_aop_pointcut" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.itheima.App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.App" />
-      <module name="spring_23_case_handle_password" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itheima.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,13 +250,78 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BookServiceTest.testGetAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springmvc_08_ssm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gxy.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gxy.service" />
+      <option name="MAIN_CLASS_NAME" value="com.gxy.service.BookServiceTest" />
+      <option name="METHOD_NAME" value="testGetAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookServiceTest.testGetById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springmvc_08_ssm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gxy.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gxy.service" />
+      <option name="MAIN_CLASS_NAME" value="com.gxy.service.BookServiceTest" />
+      <option name="METHOD_NAME" value="testGetById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SSM [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.App (1)" />
+      <item itemvalue="JUnit.BookServiceTest.testGetAll" />
+      <item itemvalue="JUnit.BookServiceTest.testGetById" />
+      <item itemvalue="JUnit.AccountServiceTest.testTransfer" />
+      <item itemvalue="JUnit.AccountServiceTest.testTransfer (1)" />
+      <item itemvalue="Maven.SSM [tomcat7:run]" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BookServiceTest.testGetAll" />
+        <item itemvalue="JUnit.BookServiceTest.testGetById" />
+        <item itemvalue="Application.App (1)" />
         <item itemvalue="JUnit.AccountServiceTest.testTransfer (1)" />
         <item itemvalue="JUnit.AccountServiceTest.testTransfer" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.com.itheima.App (1)" />
-        <item itemvalue="Application.App22" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +340,8 @@
       <workItem from="1685528022212" duration="715000" />
       <workItem from="1685528747783" duration="304000" />
       <workItem from="1685529060709" duration="975000" />
-      <workItem from="1685530045067" duration="55568000" />
+      <workItem from="1685530045067" duration="84591000" />
+      <workItem from="1686289170322" duration="9440000" />
     </task>
     <task id="LOCAL-00001" summary="6/1 Ioc &amp; Bean">
       <created>1685616721459</created>
@@ -272,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685697703924</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="6/7 transaction">
+      <created>1686128075800</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686128075800</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,6 +381,8 @@
     <MESSAGE value="6/1 Ioc &amp; Bean" />
     <MESSAGE value="6/2 Annotation, spring-mybatis, spirng-junit" />
     <MESSAGE value="6/2 AOP" />
-    <option name="LAST_COMMIT_MESSAGE" value="6/2 AOP" />
+    <MESSAGE value="6/7 transaction" />
+    <MESSAGE value="6/9 springmvc" />
+    <option name="LAST_COMMIT_MESSAGE" value="6/9 springmvc" />
   </component>
 </project>
