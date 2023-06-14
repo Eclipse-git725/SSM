@@ -21,6 +21,9 @@
         <module>springmvc_07_rest_case</module>
         <module>springmvc_08_ssm</module>
         <module>springmvc_09_result</module>
+        <module>springmvc_10_exception</module>
+        <module>springmvc_11_page</module>
+        <module>springmvc_12_interception</module>
     </modules>
 
     <properties>

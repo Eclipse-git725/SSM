@@ -29,6 +29,9 @@ public class BookController {
     }
     @GetMapping("/{id}")
     public Result getById(@PathVariable Integer id) {
+        /*if(id == 1){
+            int i = 1 / 0;
+        }*/
         Book book = bookService.getById(id);
         Integer code = book != null ? Code.Get_OK : Code.Get_Error;
         String msg = book != null ? "查询成功" : "查询失败，请重试";

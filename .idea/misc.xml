@@ -11,6 +11,9 @@
     <file type="web" url="file://$PROJECT_DIR$/springmvc/springmvc_07_rest_case" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc/springmvc_08_ssm" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc/springmvc_09_result" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc/springmvc_10_exception" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc/springmvc_11_page" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc/springmvc_12_interception" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
