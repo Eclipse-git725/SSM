@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/maven/maven_02_ssm" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc/springmvc_01_quickstart" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc/springmvc_02_bean_load" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc/springmvc_03_request_mapping" />
@@ -20,6 +21,10 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../01-spring/day01/代码/spring_01_quickstart/pom.xml" />
+        <option value="$PROJECT_DIR$/maven/maven_03_pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/maven/maven_04_dao/pom.xml" />
+        <option value="$PROJECT_DIR$/maven/maven_02_ssm/pom.xml" />
+        <option value="$PROJECT_DIR$/maven/maven_01_parent/pom.xml" />
       </list>
     </option>
   </component>
