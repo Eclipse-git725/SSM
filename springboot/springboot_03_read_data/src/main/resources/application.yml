@@ -1,0 +1,12 @@
+lesson: springboot
+
+enterprise:
+  name: itcast
+  age: 16
+  tel: 4006184000
+  subject:
+    - Java
+    - 前端
+    - 大数据
+server:
+  port: 80
