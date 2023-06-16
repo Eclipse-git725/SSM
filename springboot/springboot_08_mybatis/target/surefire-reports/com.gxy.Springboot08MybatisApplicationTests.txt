@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.gxy.Springboot08MybatisApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.181 s - in com.gxy.Springboot08MybatisApplicationTests

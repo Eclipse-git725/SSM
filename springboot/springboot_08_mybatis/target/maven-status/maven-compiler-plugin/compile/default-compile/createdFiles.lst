@@ -1,0 +1,3 @@
+com\gxy\domain\Book.class
+com\gxy\dao\BookDao.class
+com\gxy\Springboot08MybatisApplication.class
