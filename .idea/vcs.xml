@@ -2,5 +2,12 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/springboot/springboot_01_quickstart" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/springboot/springboot_02_base_config" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/springboot/springboot_03_read_data" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/springboot/springboot_04_profile" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/springboot/springboot_07_test" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/springboot/springboot_08_mybatis" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/springboot/springboot_09_ssm" vcs="Git" />
   </component>
 </project>
